@@ -33,7 +33,7 @@
                     </div>
                     <!--//docs-logo-wrapper-->
                     <div class="docs-top-utilities d-flex justify-content-end align-items-center">
-                        <a href="https://wrteam.in/"> <img src="images/ic_launcher_round.png" alt="SmartKitPro" width="20%" height="20%" /></a>
+                        <a href="https://stackappinfotech.com/"> <img src="images/ic_launcher_round.png" alt="SmartKitPro" width="20%" height="20%" /></a>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                         <li class="nav-item"><a class="nav-link scrollto" href="#importproject">Import individual UI</a></li>
                         <li class="nav-item section-title mt-3">
                             <a class="nav-link scrollto" href="#section-7">
-                                <span class="theme-icon-holder me-2"><i class="fas fa-question-circle"></i></span>WRTeam
+                                <span class="theme-icon-holder me-2"><i class="fas fa-question-circle"></i></span>Stackapp Infotech
                             </a>
                         </li>
                         <li class="nav-item"><a class="nav-link scrollto" href="#support">Need Support?</a></li>
@@ -121,12 +121,12 @@
                     <article class="docs-article" id="section-1">
                         <header class="docs-header">
                             <h1 class="docs-heading">
-                                <img src="images/wrteam.png" alt="SmartKitPro" /> <span class="docs-time"><a href="https://wrteam.in/" target="_blank">wrteam.in</a></span>
+                                <img src="images/wrteam.png" alt="SmartKitPro" /> <span class="docs-time"><a href="https://stackappinfotech.com/" target="_blank">stackappinfotech.in</a></span>
                             </h1>
 
                             <section class="docs-intro">
                                 <p>
-                                    WRTeam is a company built with the ideology of customers first. We are a team of enthusiastic individuals, with foresight for innovation and a passion for solving everyday problems using the latest
+                                    Stackapp infotech is a company built with the ideology of customers first. We are a team of enthusiastic individuals, with foresight for innovation and a passion for solving everyday problems using the latest
                                     technology.
                                 </p>
                             </section>
@@ -421,7 +421,7 @@
                             <a href="#create_fcm"><img class="figure-img img-fluid shadow rounded" src="images/ios2.png" /></a><br />
                             <br />
                             <li>now copy the content of that file and replace in ios > Runner > GoogleServie-info.plist</li>
-							
+
 							<ul><li>now press next next on firebase console and that's it your project is created on ios.</li>
                             <ul>
                                 <li>Move or copy GoogleService-Info.plist into the [my_project]/ios/Runner directory.</li>
@@ -688,34 +688,16 @@
 
                         <section class="docs-section" id="language">
                             <ol>
-                                <li>To Add language First go to <b>SmartKitPro/lib/AppFeature/l10n</b> folder and duplicate app_en.arb file and rename with your language. and replace string with your langauge</li>
+                                <li>To Add language First go to <b>BoxCricket/lib/app_localization/app_localization</b> folder and add new create new dart file as a app_localization.dart</li>
                                 <br />
-                                <li>Then Open l10n.dart file.</li>
-                                <br />
-                                <li>Paste <b>const Locale('your language code'),</b> this below const Locale('de')</li>
+                                <li>Open <b>app_localization.dart</b> file. and create class and extends <b>Translations.</b> and create variable of map where each language code (like 'en' for English, 'hi' for Hindi) is linked to its respective translations map, helping the app know which set of translations to use based on the selected language.</li>
+                                <li>Text Mapping: For each language, you define what certain texts should be. For example, <b>'appName'</b> is the key, and its value changes depending on the language: </li>
                                 <br />
                                 <img class="figure-img img-fluid shadow rounded" src="images/languagestep1.png" alt="SmartKitPro" />
                                 <br />
-                                <br />
-                                <li>Then copy code show below image.</li>
+                                <li>Main.dart file in add locale provide value deviceLocale and translations give value AppTranslations this class</li>
                                 <br />
                                 <img class="figure-img img-fluid shadow rounded" src="images/languagestep2.png" alt="SmartKitPro" />
-                                <br />
-                                <br />
-                                <li>And paste above defalut line. As shown below image</li>
-                                <br />
-                                <img class="figure-img img-fluid shadow rounded" src="images/languagestep3.png" alt="SmartKitPro" />
-                                <br />
-                                <br />
-                                <li>Then Goto your <b> main.dart</b> and wrap your <b>MaterialApp</b> with <b>ChangeNotifierProvider</b> as shown below image</li>
-                                <br />
-                                <img class="figure-img img-fluid shadow rounded" src="images/languagestep4.png" alt="SmartKitPro" />
-                                <br />
-                                <br />
-                                <li>Then add this line shown below image in your <b>MaterialApp</b> widget</li>
-                                <br />
-                                <img class="figure-img img-fluid shadow rounded" src="images/languagestep5.png" alt="SmartKitPro" />
-                                <br />
                                 <br />
                             </ol>
                         </section>
@@ -775,7 +757,7 @@
                                 <img class="figure-img img-fluid shadow rounded" src="images/indiviualfolder.png" alt="SmartKitPro" />
                                 <br />
                                 <br />
-                            
+
                             </ol>
                         </section>
                     </article>
@@ -817,15 +799,14 @@
                         <section class="docs-section" id="contactus">
                             <h2>Contact Us</h2>
                             <p>
-                                WRTeam has creative and dedicated group of developers who are mastered in Apps Developments and Web Application Development with a niche in delivering quality solutions to customers across the globe. Contact
-                                us today to find out how we can help you or for freelance work.
+                                Stackapp infotech has creative and dedicated group of developers who are mastered in Apps Developments and Web Application Development with a niche in delivering quality solutions to customers across the globe. Contact us today to find out how we can help you or for freelance work. .
                             </p>
                             <p>
-                                Visit Us : <a href="https://wrteam.in/" target="_blank"><span style="color: #0e8bcb;">https://wrteam.in</span> </a>
+                                Visit Us : <a href="https://stackappinfotech.com/" target="_blank"><span style="color: #0e8bcb;">https://stackappinfotech.com/</span> </a>
                             </p>
 
-                            <p>Mail Us : info@wrteam.in</p>
-                            <!--<p>Call Us : +91 9033 646589</p>-->
+                            <p>Mail Us : info@stackappinfotech.com</p>
+                            <p>Call Us : +91 89202 87625</p>
                             <!--<p>Skype : <a href="https://join.skype.com/invite/YvVpSKoSbtzD" target="_blank" style="color: #3c55d1;"> Hency Pithadiya</a></p>-->
 
                             <!--<p>Mail Us : info@wrteam.in</p>-->
