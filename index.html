@@ -60,10 +60,14 @@
                         <li class="nav-item"><a class="nav-link scrollto" href="#iosbuild">How to Publish iOS App to App Store</a></li>
                         <li class="nav-item section-title mt-3">
                             <a class="nav-link scrollto" href="#section-2">
-                                <span class="theme-icon-holder me-2"><i class="fas fa-edit"></i></span>Design
+                                <span class="theme-icon-holder me-2"><i class="fas fa-edit"></i></span>Android side settings
                             </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link scrollto" href="#image">Change Image</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#image">Change App Name</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#appName">Change App Icon</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#appIcon">Change App Icon</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#versionChange">Vision Change</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#permission">Permission</a></li>
                         <li class="nav-item section-title mt-3">
                             <a class="nav-link scrollto" href="#section-3">
                                 <span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Firebase
@@ -292,25 +296,46 @@
                             </section>
                             <!--//docs-intro-->
                         </header>
-                        <section class="docs-section" id="image">
-                            <h2 class="section-heading">How to Add Your Own Images</h2>
-                            <ol>
-                                <li>Go to assets > images ></li>
-                                <br />
-                                <li>Add your images inside this folder</li>
-                                <br />
-                                <img class="figure-img img-fluid shadow rounded" src="images/image.png" alt="SmartKitPro" />
-                                <br />
-                                <br />
 
-                                <li>Add Image to pubspec file inside that there is assets tag put your image here</li>
+                        <!--//section-->
+                        <section class="docs-section" id="appName">
+                            <h2 class="section-heading">How to change app label name </h2>
+                            <ol>
+                                <li>Go to > Android > App > Src > Main > AndroidManifest.xml and change app label name</li>
                                 <br />
-                                <img class="figure-img img-fluid shadow rounded" src="images/image2.png" alt="SmartKitPro" />
-                                <br />
-                                <br />
+                                <img class="figure-img img-fluid shadow rounded" src="images/app_name.png" alt="SmartKitPro" />
                             </ol>
                         </section>
-
+                            <section class="docs-section" id="appIcon">
+                            <h2 class="section-heading">How to Add App Icon in Android</h2>
+                            <ol>
+                                <li>Go to <a href="https://www.appicon.co/" style="color: #3c55d1;" target="_blank">App Icon Generator</a> and Add your images. </li>
+                                <br />
+                                <img class="figure-img img-fluid shadow rounded" src="images/app_icon.png" alt="SmartKitPro" />
+                                <li> unzip file and open the folder and open Android folder and selete all folder and copy that folder. </li>
+                                <img class="figure-img img-fluid shadow rounded" src="images/android_folder.png" alt="SmartKitPro" />
+                                <li>Go to below path.</li>
+                                <img class="figure-img img-fluid shadow rounded" src="images/android_app_icon_path.png" alt="SmartKitPro" />
+                                <li>Open <b>AndroidManifest.xml</b> and below image in selected place to change the app icon name app icon Generator given name.</li>
+                                <img class="figure-img img-fluid shadow rounded" src="images/android_app_icon_path.png" alt="SmartKitPro" />
+                            </ol>
+                        </section>
+                           <section class="docs-section" id="versionChange">
+                            <h2 class="section-heading">How to change app vision in android</h2>
+                            <ol>
+                                <li>Go to > Android > App > build.gradle and change app version name</li>
+                                <br />
+                                <img class="figure-img img-fluid shadow rounded" src="images/app_vision.png" alt="SmartKitPro" />
+                            </ol>
+                        </section>
+                        <section class="docs-section" id="permission">
+                            <h2 class="section-heading">How to add permission in android</h2>
+                            <ol>
+                                <li>Go to > Android > App > Src > Main > AndroidManifest.xml and add permission</li>
+                                <br />
+                                <img class="figure-img img-fluid shadow rounded" src="images/permission.png" alt="SmartKitPro" />
+                            </ol>
+                        </section>
                     </article>
                     <!--//docs-article-->
 
